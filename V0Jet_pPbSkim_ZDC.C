@@ -1152,7 +1152,6 @@ void V0Jet_pPbSkim_ZDC(TString input_file, TString input_V0file, TString ouputfi
 		NtrkCorrLoose = get_Ntrkcorr_loose(eff_factor_loose, nTracks, trackEtaArray, trackPtArray, trackChargeArray, trackHighPurityArray, trackPtErrorArray, trackVertexDistanceXYArray, trackVertexDistanceXYErrorArray, trackVertexDistanceZArray, trackVertexDistanceZErrorArray);
 
 		heavyIonTreeOutput->Fill(); // fill event information
-		hltTreeOutput->Fill();      // HLT information
 		skimTreeOutput->Fill();		// filter information
 
    		//loop over K0s
