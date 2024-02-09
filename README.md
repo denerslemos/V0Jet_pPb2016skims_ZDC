@@ -20,8 +20,8 @@ Before compile the code you must check the [sub_skim.sh](https://github.com/dene
 
 Once this steps are done you can compile the code with
 ```
-g++ -O2 V0Jet_pPb2016skims_ZDC.C `root-config --libs` `root-config --cflags` -o V0Jet_pPbSkim
+g++ -O2 V0Jet_pPbSkim_ZDC.C `root-config --libs` `root-config --cflags` -o V0Jet_pPbSkim_ZDC
 ```
-This will create the executable: ```V0Jet_pPb2016skims_ZDC``` 
+This will create the executable: ```V0Jet_pPbSkim_ZDC``` 
 
 After that you will submit jobs by using HTCondor_submit.py, just text me to see how to submit jobs :).
